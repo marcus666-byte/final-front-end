@@ -1,0 +1,28 @@
+.famliy {
+    background-color: #899e8b;
+  height: 100vh;
+
+}
+
+
+.menu {
+  display: none;
+}
+
+@media screen and (max-width: 535px) {
+  .menu {
+    display: block;
+  }
+
+  .nav-links {
+    width: 0px;
+    overflow: hidden;
+    position: fixed;
+    top: 40px;
+    background: black;
+    justify-content: center;
+    height: 40px;
+    align-items: center;
+    left: 0;
+  }
+}

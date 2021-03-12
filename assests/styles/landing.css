@@ -1,0 +1,40 @@
+.landing {
+  height: 100vh;
+  background-size: cover;
+  background-position: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  animation: backgroundChange 25s linear infinite;
+}
+
+@keyframes backgroundChange {
+  15% {
+    background-image: url("https://scontent-cpt1-1.xx.fbcdn.net/v/t1.0-9/76686358_10217165941514617_1380300629490008064_o.jpg?_nc_cat=110&ccb=3&_nc_sid=cdbe9c&_nc_eui2=AeFHOc0rtt5V3ON18bUOTLqBoyuj_oFIFuejK6P-gUgW50-dLAUPDc5gxrdeQMTnMwQo_hFyDHk923oHmWj6pTdc&_nc_ohc=ZDjJ4M9k_k8AX-RdW_1&_nc_ht=scontent-cpt1-1.xx&oh=5861446266910c68a123947218a858cd&oe=605CE444");
+  }
+  30% {
+    background-image: url("../images/Valedictory\ \ \(14\ of\ 67\).JPG");
+  }
+  45% {
+    background-image: url("../images/Chad\ 01-9618.JPG");
+  }
+  60% {
+    background-image: url("https://scontent-cpt1-1.xx.fbcdn.net/v/t1.0-9/132873099_2133870913415821_3104618313818271086_o.jpg?_nc_cat=111&ccb=3&_nc_sid=730e14&_nc_eui2=AeEpKwjJuk_zn9B9vT0v04L5Vfd_3tWJ4e1V93_e1Ynh7bGxTyBsVX_1hiEVor6ep9YUJUQoljncpXYnhRlLq8iI&_nc_ohc=pkgU2QcPVkMAX_7KTQf&_nc_ht=scontent-cpt1-1.xx&oh=81fe488234b6cc6786e31b503f337188&oe=605E80EA");
+  }
+  75% {
+    background-image: url("../images/IMG_0688-53.JPG");
+  }
+
+  85% {
+    background-image: url("../images/IMAGE-34.JPG");
+  }
+
+  99% {
+    background-image: url("../images/IMG_1494-301.JPG");
+  }
+}
+
+.landing h1 {
+  padding: 20px;
+}

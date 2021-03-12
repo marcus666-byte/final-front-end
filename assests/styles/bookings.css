@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+.landing {
+  background-color: #899e8b;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 30px;
+}
+
+.item {
+  order: 5;
+  flex-basis: auto;
+}
+
+.months h1 {
+  color: antiquewhite;
+  padding: 120px;
+}
+
+
+.menu {
+  display: none;
+}
+
+@media screen and (max-width: 535px) {
+  .menu {
+    display: block;
+  }
+
+  .nav-links {
+    width: 0px;
+    overflow: hidden;
+    position: fixed;
+    top: 40px;
+    background: black;
+    justify-content: center;
+    height: 40px;
+    align-items: center;
+    left: 0;
+  }
+}

@@ -1,0 +1,72 @@
+.explore {
+  background-color: #706c61;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 150px;
+}
+
+img:hover {
+  transform: scale(0.9);
+}
+
+img {
+  width: 30vw;
+  padding: 10px;
+
+  border: 5px solid;
+  object-fit: cover;
+  padding: 0;
+  overflow: hidden;
+  transition: all 0.3s ease-out;
+}
+
+h2 {
+  font-size: 60px;
+  position: relative;
+  top: 100px;
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  font-family: "Monoton", cursive;
+}
+
+.wed {
+  background-color: #899e8b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 150px;
+}
+
+.vid {
+  background-color: #99c5b5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 150px;
+}
+
+
+
+
+.menu {
+  display: none;
+}
+
+@media screen and (max-width: 535px) {
+  .menu {
+    display: block;
+  }
+
+  .nav-links {
+    width: 0px;
+    overflow: hidden;
+    position: fixed;
+    top: 40px;
+    background: black;
+    justify-content: center;
+    height: 40px;
+    align-items: center;
+    left: 0;
+  }
+}
